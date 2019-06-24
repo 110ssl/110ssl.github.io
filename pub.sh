@@ -4,7 +4,7 @@ if [ $# != 1 ] ; then
 fi
 git checkout master
 cp -r _book/* .
-#git add .
-#git commit -m $1
-#git push origin master
+git add .
+git commit -m $1
+git push origin master
 git checkout dev
